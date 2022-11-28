@@ -1,0 +1,956 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IERC20.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "6dbea8cecfddd76d4ddf3d5c84a76e9b",
+      "sourceName": "contracts/joe/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20Joe"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IWAVAX.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "3c6a3cb278cf23bad23b98eb05baaf46",
+      "sourceName": "contracts/joe/interfaces/IWAVAX.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IWAVAX"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IJoeFactory.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "c47e8259c4b620464aa69df10911eeec",
+      "sourceName": "contracts/joe/interfaces/IJoeFactory.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoeFactory"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IJoeCallee.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "42750602cdcfcc7249f07584f635b09a",
+      "sourceName": "contracts/joe/interfaces/IJoeCallee.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoeCallee"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IJoePair.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "6d21a5d56e6cf49a963cfa5993882da5",
+      "sourceName": "contracts/joe/interfaces/IJoePair.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoePair"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IJoeRouter02.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "19e739009e61247925530af11d86abaf",
+      "sourceName": "contracts/joe/interfaces/IJoeRouter02.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IJoeRouter01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IJoeRouter02"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IJoeRouter01.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "6fd6517139fb0577d3b722d2693c0bda",
+      "sourceName": "contracts/joe/interfaces/IJoeRouter01.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IJoeRouter01"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "9e089da75a83d31839751be46a780fcc",
+      "sourceName": "contracts/joe/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/interfaces/IJoeERC20.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "c18630e88799e96e8f035e7c41545313",
+      "sourceName": "contracts/joe/interfaces/IJoeERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IJoeERC20"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/tokens/Bean.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "985fb58f4c909229f7bfbc646e65d39d",
+      "sourceName": "contracts/tokens/Bean.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol"
+      ],
+      "versionPragmas": [
+        "=0.7.6"
+      ],
+      "artifacts": [
+        "Bean"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1660560769573,
+      "contentHash": "42aa79d3fe22b0a94f0e7ecdd061909d",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../GSN/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/node_modules/@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol": {
+      "lastModificationDate": 1660560770498,
+      "contentHash": "d5aff7bbc73c28328a7bc7bedf4b8340",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/node_modules/@openzeppelin/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1660560769572,
+      "contentHash": "688fc161386f66688d0ea676f67dabe7",
+      "sourceName": "@openzeppelin/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1660560770495,
+      "contentHash": "501189ba375e3d383b89c9b56b7a5d4e",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1660560770501,
+      "contentHash": "70ec621ea910798b6c590a0b402a5bb9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1660560769581,
+      "contentHash": "1d90542b583d3152a80af62d830357a0",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1660560769581,
+      "contentHash": "96b05cb023e664b2c833ec166de51d25",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/tokens/USDC.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "bda600035799d7c314a40842de12335a",
+      "sourceName": "contracts/tokens/USDC.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.6"
+      ],
+      "artifacts": [
+        "USDC"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/JoeRouter02.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "4d2e08502680eb97a36ce6c09a391cba",
+      "sourceName": "contracts/joe/JoeRouter02.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/JoeLibrary.sol",
+        "./libraries/SafeMath.sol",
+        "./libraries/TransferHelper.sol",
+        "./interfaces/IJoeRouter02.sol",
+        "./interfaces/IJoeFactory.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWAVAX.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "JoeRouter02"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/libraries/JoeLibrary.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "844ef97ae5d86c7fc89e1e4a84ab75ff",
+      "sourceName": "contracts/joe/libraries/JoeLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IJoePair.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "JoeLibrary"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/libraries/SafeMath.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "6f96b1400b5515d20ad4914cb60803a0",
+      "sourceName": "contracts/joe/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "SafeMathJoe"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/JoePair.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "1a251f73466c62c9038049ee6621a870",
+      "sourceName": "contracts/joe/JoePair.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./JoeERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IJoeFactory.sol",
+        "./interfaces/IJoeCallee.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "IMigrator",
+        "JoePair"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/JoeERC20.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "e692d0ae449ad186aa8520db217106aa",
+      "sourceName": "contracts/joe/JoeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "JoeERC20"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/libraries/Math.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "b004706bb39c05f732245bb39178d3f6",
+      "sourceName": "contracts/joe/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1660559915959,
+      "contentHash": "f0bab25e924fb824712fde36dbe3567f",
+      "sourceName": "contracts/joe/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/zain/Desktop/BeanStalk/StoicStalk/15Aug2022/stoic-contracts/pre-deployment-project/contracts/joe/JoeFactory.sol": {
+      "lastModificationDate": 1660559915958,
+      "contentHash": "f37941e50ccdb107dbd4f11db2b9fa54",
+      "sourceName": "contracts/joe/JoeFactory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IJoeFactory.sol",
+        "./JoePair.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "JoeFactory"
+      ]
+    }
+  }
+}
